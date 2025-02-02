@@ -1,21 +1,21 @@
 # task-scheduler
-A simple and interactive Task Manager application built using HTML, CSS, and JavaScript. This app allows users to add, filter, and manage tasks efficiently, with data stored locally using Local Storage.
+A  interactive Task Manager application built using HTML, CSS, and JavaScript. This app allows users to add, filter, and manage tasks efficiently, with data stored locally using Local Storage.
 
 #  Features
 
-📌 **Add Tasks** – Users can add tasks with a due date and priority.
-🔍 **Search & Filter** – Tasks can be filtered based on priority, date, or keyword.
-✅ **Mark as Complete** – Completed tasks appear crossed out.
-❌ **Delete Tasks** – Easily remove tasks when no longer needed.
-💾 **Local Storage** – Tasks persist even after refreshing the page.
-📱 ***Responsive Design*** – Works seamlessly on different screen sizes.
+* 📌 **Add Tasks** – Users can add tasks with a due date and priority.
+* 🔍 **Search & Filter** – Tasks can be filtered based on priority, date, or keyword.
+* ✅ **Mark as Complete** – Completed tasks appear crossed out.
+* ❌ **Delete Tasks** – Easily remove tasks when no longer needed.
+* 💾 **Local Storage** – Tasks persist even after refreshing the page.
+* 📱 ***Responsive Design*** – Works seamlessly on different screen sizes.
 
 # Technologies Used 
 
-***HTML*** – Structure of the Task Manager.
-***CSS*** – Styling and layout for a clean UI.
-***JavaScript*** – Functionality for task management.
-***Local Storage*** – Persistent storage of tasks.
+ * ***HTML*** – Structure of the Task Manager.
+ * ***CSS*** – Styling and layout for a clean UI.
+ * ***JavaScript*** – Functionality for task management.
+ * ***Local Storage*** – Persistent storage of tasks.
 
 # Preview
 Task adding :
