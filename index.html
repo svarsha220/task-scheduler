@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h1>Task Manager</h1>
+
+    <!-- Search and Filter Section -->
+    <div class="filter-section">
+      <input type="text" id="search-input" placeholder="Search task by name..." />
+      <select id="filter-priority">
+        <option value="">Filter by Priority</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+      <input type="date" id="filter-date" />
+      <button id="filter-btn">Filter</button>
+      <button id="reset-filter-btn">Reset</button>
+    </div>
+
+    <!-- Input Section -->
+    <div class="input-section">
+      <div class="input-group">
+        <label for="task-input">Add New Task:</label>
+        <input type="text" id="task-input" placeholder="Enter task name..." />
+      </div>
+      <div class="input-group">
+        <label for="priority-input">Set Priority:</label>
+        <select id="priority-input">
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="due-date-input">Set End Date:</label>
+        <input type="date" id="due-date-input" />
+      </div>
+      <button id="add-task-btn">Add Task</button>
+    </div>
+
+    <!-- Task List Section -->
+    <div class="task-list-container">
+      <table id="task-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Due Date</th>
+            <th>Priority</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="task-list"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
